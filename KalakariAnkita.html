@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kalakari Ankita - Jewelry Collection</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;				
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fdfcfb;
+      color: #3e342f;
+    }
+    header {
+      background-image: url('header-bg.jpg'); /* replace with your actual image */
+      background-size: cover;
+      background-position: center;
+      padding: 60px 5px;
+      text-align: center;
+      color: white;
+    }
+    section {
+      background-color: #fdfdfb; /* Ensure all sections are pearl white */
+    }
+    header img {
+      max-height: 80px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin: 10px 0;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #003366;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    }
+    nav {
+      background-color: #a6cde7;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #3e342f;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: 600;
+    }
+    .hero {
+      background-color: #fdfdfb;
+      text-align: center;
+      padding: 60px 20px;
+      color: #1e3a8a;
+      font-family: 'Dancing Script', cursive;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+      color: #5a4d44;
+    }
+    .hero a {
+      padding: 10px 20px;
+      background-color: #dd8a56;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px 20px;
+      background-color: white;
+    }
+    .product {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      width: 250px;
+      padding: 20px;
+      text-align: center;
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .product h3 {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+    .product p {
+      font-size: 0.9rem;
+      color: #6b5e55;
+    }
+    .whatsapp-btn, .group-btn {
+      display: inline-block;
+      margin: 20px auto;
+      padding: 12px 25px;
+      background-color: #a6cde7;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .footer {
+      text-align: center;
+      background-color: #eadccd;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+    button,
+  input[type="button"],
+  input[type="submit"],
+  a.button,
+  a[href^="https://wa.me"],
+  .product a,
+  .hero a,
+  .whatsapp-btn,
+  .group-btn {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover,
+  input[type="button"]:hover,
+  input[type="submit"]:hover,
+  a.button:hover,
+  a[href^="https://wa.me"]:hover,
+  .product a:hover,
+  .hero a:hover,
+  .whatsapp-btn:hover,
+  .group-btn:hover {
+    background-color: #002244;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.jpeg" alt="Kalakari Ankita Logo">
+    <h1>Kalakari Ankita</h1>
+    <p>Jewelery & Cute Stuff | EST. 2025</p>
+  </header>
+
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+    <a href="#join">Join WhatsApp Group</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Jewellry Collection</h2>
+    <p>Believe Your Own Hype</p>
+    <a href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"</a>
+  </section>
+
+  <section class="products" id="products">
+    <div class="product">
+      <img src="product1.jpeg" alt="Necklace">
+      <h3>Elegant Bracelet</h3>
+      <p>₹500 | Traditional Peacock Design</p>
+    </div>
+    <div class="product">
+      <img src="product2.jpeg" alt="Ring">
+      <h3>Bag Necklase</h3>
+      <p>₹500 | Adjustable Size</p>
+    </div>
+    <div class="product">
+      <img src="product3.jpeg" alt="Earrings">
+      <h3>Matching Bracelets</h3>
+      <p>₹200 | Brass & Kundan Work</p>
+    </div>
+  </section>
+
+   <div style="text-align: center">
+    <a href="https://wa.me/9372850746?text=Hi%20I'm%20interested%20in%20Kalakari%20Ankita's%20collection!" target="_blank">Order on WhatsApp</a>
+   </div>
+
+  <section class="hero" id="join">
+    <h2>Join Our WhatsApp Group</h2>
+    <a class="group-btn" href="https://wa.me/9372850746?text=Please%20add%20me%20to%20Kalakari%20Ankita%20WhatsApp%20group">Join Now</a>
+  </section>
+
+  <section class="hero" id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 <a href="tel:=917045802690"></a></p>
+    <p>📸 <a href="https://www.instagram.com/kalakari.ankita" target="_blank">@kalakari.ankita</a></p>
+  </section>
+
+  <div class="footer">
+    &copy; 2025 Kalakari Ankita. All Rights Reserved.
+  </div>
+</body>
+</html>
